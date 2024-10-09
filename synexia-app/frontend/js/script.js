@@ -97,6 +97,7 @@ const commands = {
             speak("What would you like to search for?");
         }
     },
+    "who are you" : () => speak("I am a artificial intellegence create by humans to assist you how can i help you?"),
     "who is your creator": () => speak("I was created by a team of developers passionate about AI."),
     "who is god": () => speak("God is often described as the supreme being in many religions."),
     "are you a human being": () => speak("No, I am a virtual assistant, not a human being."),
