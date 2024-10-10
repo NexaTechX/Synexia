@@ -103,6 +103,7 @@ const commands = {
     "what can you do": () => speak("I can assist you with tasks, answer questions, and provide information."),
     "tell me about yourself": () => speak("I am NEXABOT, your personal virtual assistant here to help you."),
     "what is your purpose": () => speak("My purpose is to assist you and make your life easier."),
+    "What can you do": () => speak("I can solve most of your software problems for you"),
     "change voice to female": () => {
         currentVoiceType = "female";
         loadVoices();
